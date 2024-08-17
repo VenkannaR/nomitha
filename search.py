@@ -1,12 +1,12 @@
 l1=[58,10,20,30,40,52,53,54,55,56,57]
-
+#Linear Search
 def linear_search(numbers,number):
     for i in numbers:
         if(i==number):
             return True
     return False
 
-
+# Binary Search
 def binary_search(numbers,number):
     n=len(numbers)
     left=0
